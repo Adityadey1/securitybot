@@ -12,7 +12,7 @@ def clean_text_for_speech(text):
 
 def friday_ai_response(prompt: str) -> str:
     try:
-        api_key = "AIzaSyDl1PaqSwCjBWr_OojVWvhKX1DGex9dKII"
+        api_key = "*********************" <api_key_need_to_be_secret>
         genai.configure(api_key=api_key)
 
         # Use the supported Gemini model
